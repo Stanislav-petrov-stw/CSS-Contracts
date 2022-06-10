@@ -30,8 +30,8 @@ contract Collection is ERC721Enumerable, Ownable {
     string public baseURI;
     string public baseExtension = ".json";
     uint256 public cost = 0.001 ether;
-    uint256 public maxSupply = 10000;
-    uint256 public maxMintAmount = 10000;
+    uint256 public maxSupply = 1000;
+    uint256 public maxMintAmount = 1000;
     bool public paused = false;
 
     constructor() ERC721("CSS NFT Collection", "CSS") {}
