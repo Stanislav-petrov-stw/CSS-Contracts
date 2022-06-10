@@ -49,7 +49,7 @@ contract Collection is ERC721Enumerable, Ownable {
     }
 
     function _baseURI() internal view virtual override returns (string memory) {
-    return "ipfs://EE5MmqVp5MmqVp7ZRMBBizicVh9ficVh9fjUofWicVh9f/";
+    return "ipfs://QmU1udQxFusuzz1R3b61ABHLgnxUAF8w2oC4tWSPivQtgN/";
 
     }
     
